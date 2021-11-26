@@ -1,8 +1,11 @@
 body{
-    background-color: rgb(17, 17, 17);
+    background-image: url(https://lh3.googleusercontent.com/proxy/4z8JF568IkQkpSWs9xcNNL84hkJqiZw90YI3PlwIT1nptOdszOGTQXadEBYXpbTYx1oxaXJE);
+    background-size: 100%;
 }
 pre{
-    color: white;
+    color: #e6f0e7;
+    font-size: 15px;
+    font-family: monospace;
 }
 
 #ol{
