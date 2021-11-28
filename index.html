@@ -27,9 +27,9 @@
     <link rel="stylesheet" href=
 "https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
 </head>
-  <audio id="1" src="https://f.top4top.io/m_2156qojxk1.mp3"></audio>
-  <audio id="2" src="https://k.top4top.io/m_2157fxzi90.mp3"></audio>
-  <audio id="3" src="https://k.top4top.io/m_2137zt60g0.mp3"></audio>
+  <audio id="umbrella remix" src="https://f.top4top.io/m_2156qojxk1.mp3"></audio>
+  <audio id="dont like me" src="https://k.top4top.io/m_2157fxzi90.mp3"></audio>
+  <audio id="fallen kingdom" src="https://k.top4top.io/m_2137zt60g0.mp3"></audio>
   <audio id="4" src="https://b.top4top.io/m_2137ht1fi3.mp3"></audio>
   <audio id="5" src="https://l.top4top.io/m_2137oejj90.mp3"></audio>
 <body>
@@ -81,32 +81,14 @@ $('body').terminal({
 
     },
 
-    1:function play(){
-        alert('Memutar Umbrella Remix');
-        var audio=document.getElementById("1"); audio.play();
+    music:function play(nama){
+        alert('Memutar Music');
+        var audio=document.getElementById(nama); audio.play();
     },
-    music: function(){
-        this.echo('<-Daftarmusic-> \n[1]Umbrella remix \n[2]Dont like me \n[3]Fallen kingdom \n[4]Dragon Knight \nJika ingin berhenti ketik stop<spasi>nomor lagu')
+    Music: function(){
+        this.echo('<-Daftarmusic-> \n[1]Umbrella remix \n[2]Dont like me \n[3]Fallen kingdom \n[4]Dragon Knight \nJika ingin berhenti ketik stop<spasi>nama lagu')
     },
-    2:function play(){
-        alert('Memutar lagu Dont Like Me');
-        var audio=document.getElementById('2'); audio.play();
-    },
-    3:function play(){
-        alert('Memutar lagu Fallen Kingdom');
-        var audio=document.getElementById('3'); audio.play();
-    },
-
-    4:function play(){
-        alert('Memutar lagu VØC - Dragon Knight');
-        var audio=document.getElementById('4'); audio.play();
-    },
-
-    5:function play(){
-        alert('Memutar lagu Yester-Evasie');
-        var audio=document.getElementById('5'); audio.play();
-    },
-
+    
     refresh: function(){
         window.location.reload();
     },
