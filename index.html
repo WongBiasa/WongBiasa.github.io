@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <!--content type : HTML -->
+    <meta http-equiv="content-type" 
+        content="text/html; charset=UTF-8">
+  
+    <!-- Making viewport responsive -->
+    <meta name="viewport" content=
+        "width=device-width,minimum-scale=1,
+        initial-scale=1">
+
+        <title>Hedy Fake | Web</title>
+  
+    <!-- Loading jQuery, jQuery.terminal, 
+        and style sheet -->
+    <script src=
+        "https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+  
+    <script src=
+"https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js">
+    </script>
+    <script src="perintah.js"></script>
+  
+    <link rel="stylesheet" href=
+"https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
+</head>
+  <audio id="1" src="https://f.top4top.io/m_2156qojxk1.mp3"></audio>
+  <audio id="2" src="https://k.top4top.io/m_2157fxzi90.mp3"></audio>
+  <audio id="3" src="https://k.top4top.io/m_2137zt60g0.mp3"></audio>
+  <audio id="4" src="https://b.top4top.io/m_2137ht1fi3.mp3"></audio>
+  <audio id="5" src="https://l.top4top.io/m_2137oejj90.mp3"></audio>
+<body>
+  <script>
+      // In body tag
+$('body').terminal({
+	saya: function (name) {
+		this.echo('Hello, ' + name +
+			' Welcome to My Website');
+	},
+    
+    instagram:function(){
+        window.location.href="https://www.instagram.com/my_name736/"
+    },
+    profile:function(){
+        window.location.href="http://hedyfake.ueuo.com/"
+    },
+
+    cuaca:function(){
+        var kota=prompt('Nama kota anda')
+        window.location.href="http://wttr.in/" + kota
+    },
+
+    spamsms: function(){
+        alert('Masukkan nomor tanpa +62 atau 0')
+        var nomor=prompt('Masukkan Nomor','')
+        $.get('https://id.jagreward.com/member/verify-mobile/' + nomor ,
+            alert('Terkirim ke nomor:0'+ nomor)
+        );
+    },
+
+    blog:function(){
+        window.location.href="https://mhw-security77.blogspot.com/"
+    },
+
+    help: function(){
+        this.echo('<-=[DAFTAR PERINTAH]=-> \nls  \nmusic \n tools' );
+    },
+    ls: function(){
+        this.echo('profile \nblog \ninstagram \nfacebook')
+    },
+
+    user: function(){
+        alert(' ')
+        $.get('http://hedyfake.xp3.biz/',
+        function(usr){
+            alert(usr)
+        });
+
+    },
+
+    1:function play(){
+        alert('Memutar Umbrella Remix');
+        var audio=document.getElementById("1"); audio.play();
+    },
+    music: function(){
+        this.echo('<-Daftarmusic-> \n[1]Umbrella remix \n[2]Dont like me \n[3]Fallen kingdom \n[4]Dragon Knight \nJika ingin berhenti ketik stop<spasi>nomor lagu')
+    },
+    2:function play(){
+        alert('Memutar lagu Dont Like Me');
+        var audio=document.getElementById('2'); audio.play();
+    },
+    3:function play(){
+        alert('Memutar lagu Fallen Kingdom');
+        var audio=document.getElementById('3'); audio.play();
+    },
+
+    4:function play(){
+        alert('Memutar lagu VØC - Dragon Knight');
+        var audio=document.getElementById('4'); audio.play();
+    },
+
+    5:function play(){
+        alert('Memutar lagu Yester-Evasie');
+        var audio=document.getElementById('5'); audio.play();
+    },
+
+    refresh: function(){
+        window.location.reload();
+    },
+    stop: function pause(lagu){
+        var audio=document.getElementById(lagu); audio.pause();
+    },
+    ifconfig: function(){
+        $.get('https://api.ipify.org/',
+        function(ip){
+            alert('ip addr:'+ ip +'')
+        }
+        );
+    }
+
+}, {
+	greetings: 'Microsoft Windows [Version 10.0.19042.1348]'
+			+ '\n(c) Microsoft Corporation. All rights reserved.'
+});
+
+  </script>
+  <style>
+      .terminal{
+          --color: rgba(0, 200, 0, 0.99);
+          ---animation: terminal-glow;
+          --glow: 1;
+      }
+  </style>
+</body>
+</html>
