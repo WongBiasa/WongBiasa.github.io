@@ -49,11 +49,12 @@ $('body').terminal({
         window.location.href="http://hedyfake.ueuo.com/"
     },
 
-    cuaca:function(){
-        var kota=prompt('Nama kota anda')
+    cuaca:function(kota){
         window.location.href="http://wttr.in/" + kota
     },
-
+    ddos:function(){
+        window.location.href="ddos.html"
+    }, 
     spamsms: function(){
         alert('Masukkan nomor tanpa +62 atau 0')
         var nomor=prompt('Masukkan Nomor','')
