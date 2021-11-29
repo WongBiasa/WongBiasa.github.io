@@ -26,12 +26,13 @@
   
     <link rel="stylesheet" href=
 "https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
-</head>
+</head> 
+  <audio id="inthedark" src="https://b.top4top.io/m_2158lzxmc0.mp3"></audio>
   <audio id="umbrellaremix" src="https://f.top4top.io/m_2156qojxk1.mp3"></audio>
   <audio id="dontlike" src="https://k.top4top.io/m_2157fxzi90.mp3"></audio>
   <audio id="fallenkingdom" src="https://k.top4top.io/m_2137zt60g0.mp3"></audio>
   <audio id="dragonknight" src="https://b.top4top.io/m_2137ht1fi3.mp3"></audio>
-  <audio id="yesterevasie" src="https://l.top4top.io/m_2137oejj90.mp3"></audio>
+  <audio id="yesterevasie" src="https://c.top4top.io/m_2158nu4v41.mp3"></audio>
 <body>
   <script>
       // In body tag
@@ -85,8 +86,8 @@ $('body').terminal({
         alert('Memutar Music');
         var audio=document.getElementById(nama); audio.play();
     },
-    Music: function(){
-        this.echo('<-Daftarmusic-> \n[1]Umbrella remix \n[2]Dont like me \n[3]Fallen kingdom \n[4]Dragon Knight \nJika ingin berhenti ketik stop<spasi>nama lagu')
+    music: function(){
+        this.echo('<-Daftarmusic-> \n[1]Umbrella remix \n[2]Dont like me \n[3]Fallen kingdom \n[4]Dragon Knight \n[5]In the dark \n jika ingin mendengarkan music ketik "play nama music" 'Note' huruf kecil semua tidak dispasi \nJika ingin berhenti ketik stop<spasi>nama lagu')
     },
     
     refresh: function(){
