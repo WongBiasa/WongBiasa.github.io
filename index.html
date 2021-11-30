@@ -86,7 +86,9 @@ $('body').terminal({
     play:function play(nama){
         alert('Memutar Music');
         var audio=document.getElementById(nama); audio.play();
-    },
+    }else{
+	alert('lagu tidak ditemukan silahkan ketik music');
+   },
     music: function(){
         this.echo('<-Daftarmusic-> \n[1]Umbrella remix \n[2]Dont like me \n[3]Fallen kingdom \n[4]Dragon Knight \n[5]In the dark \n jika ingin mendengarkan music ketik "play nama music" "Catatan" huruf kecil semua tidak dispasi \nJika ingin berhenti ketik stop<spasi>nama lagu')
     },
